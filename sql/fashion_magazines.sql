@@ -11,4 +11,4 @@ JOIN
 WHERE
     orders.order_status = 'unpaid'
 GROUP BY
-    orders.order_id, customers.customer_name;
+    customers.customer_name;
