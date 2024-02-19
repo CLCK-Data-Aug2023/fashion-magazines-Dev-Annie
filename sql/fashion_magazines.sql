@@ -1,6 +1,6 @@
 SELECT 
-    customers.customer_id,
-    customers.customer_name,
+    customers.customer_id AS CustomerID,
+    customers.customer_name AS Customer,
     PRINTF('$%.2f', SUM(subscriptions.price_per_month * subscriptions.subscription_length)) AS total_amount_due
 FROM 
     orders
