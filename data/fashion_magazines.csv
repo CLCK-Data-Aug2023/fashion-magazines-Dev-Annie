@@ -1,6 +1,5 @@
-customer_id,customer_name,total_amount_due
-1,Allie Rahaim,$198.00
-3,Lizabeth Letsche,$303.00
-6,Bethann Schraub,$102.00
-7,Janay Priolo,$57.00
-9,Eryn Vilar,$102.00
+Customer,total_amount_due
+Bethann Schraub,$102.00
+Eryn Vilar,$102.00
+Janay Priolo,$57.00
+Lizabeth Letsche,$237.00
